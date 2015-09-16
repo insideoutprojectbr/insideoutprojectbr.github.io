@@ -11,7 +11,13 @@ body {
   font-size: 1.2rem;
 }
 
-section {
+header h1 {
+  font-size: 2.5rem;
+  padding: 2vw;
+  text-shadow: -0.1rem -0.1rem 0.1rem #D3360B;
+}
+
+header, article {
   min-height: 100vh;
   padding: 6vw;
   display: flex;
@@ -25,23 +31,43 @@ section {
   background-attachment: fixed;
 }
 
-header h1 {
-  font-size: 2rem;
-  padding: 2vw;
+.titulo {
+  font-size: 3rem;
+  text-shadow: 0.1rem 0.1rem #333;
 }
 
-#rails-girls {
+#rails-girls .titulo {
   background-image: url('../images/rails-girls.jpg');
+  color: #D3360B;
 }
 
-#django-girls {
+#rails-girls .descricao {
+  background-color: #D3360B;
+}
+
+#django-girls .titulo {
   background-image: url('../images/django-girls-niteroi.jpg');
+  color: #FF9400;
 }
 
-#wtm {
+#django-girls .descricao {
+  background-color: #FF9400;
+}
+
+#wtm .titulo {
   background-image: url('../images/wtm.jpg');
+  color: #3399FF;
 }
 
-#js4girls {
+#wtm .descricao {
+  background-color: #3399FF;
+}
+
+#js4girls .titulo {
   background-image: url('../images/js4girls.jpg');
+  color: #DF105B;
+}
+
+#js4girls .descricao {
+  background-color: #DF105B;
 }
