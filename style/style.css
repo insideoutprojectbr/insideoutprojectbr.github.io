@@ -36,8 +36,8 @@ header, article {
   text-shadow: 0.1rem 0.1rem #333;
 }
 
-#rails-girls .titulo {
-  background-image: url('../images/rails-girls.jpg');
+#rails-girls .title {
+  background-image: url('../images/projects/rails-girls.jpg');
   color: #D3360B;
 }
 
@@ -45,8 +45,8 @@ header, article {
   background-color: #D3360B;
 }
 
-#django-girls .titulo {
-  background-image: url('../images/django-girls-niteroi.jpg');
+#django-girls .title {
+  background-image: url('../images/projects/django-girls-niteroi.jpg');
   color: #FF9400;
 }
 
@@ -54,8 +54,8 @@ header, article {
   background-color: #FF9400;
 }
 
-#wtm .titulo {
-  background-image: url('../images/wtm.jpg');
+#wtm .title {
+  background-image: url('../images/projects/wtm.jpg');
   color: #3399FF;
 }
 
@@ -63,8 +63,8 @@ header, article {
   background-color: #3399FF;
 }
 
-#js4girls .titulo {
-  background-image: url('../images/js4girls.jpg');
+#js4girls .title {
+  background-image: url('../images/projects/js4girls.jpg');
   color: #DF105B;
 }
 
