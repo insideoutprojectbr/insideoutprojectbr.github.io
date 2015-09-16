@@ -64,7 +64,7 @@ header, article {
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 2rem;
   text-shadow: 0.1rem 0.1rem #333;
 }
 
@@ -102,4 +102,10 @@ header, article {
 
 #js4girls .description {
   background-color: #DF105B;
+}
+
+@media (min-width: 800px) {
+  .title {
+    font-size: 3rem;
+  }
 }
