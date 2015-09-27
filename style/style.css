@@ -68,6 +68,15 @@ header, article {
   text-shadow: 0.1rem 0.1rem #333;
 }
 
+#mulheres-palestrantes .title {
+  background-image: url('../images/projects/mulheres_palestrantes.png');
+  color: #CC0066;
+}
+
+#mulheres-palestrantes .description {
+  background-color: #CC0066;
+}
+
 #rails-girls .title {
   background-image: url('../images/projects/rails-girls.jpg');
   color: #D3360B;
