@@ -69,14 +69,14 @@ header, article {
 }
 
 .badge {
-height: 0.5rem;
-padding-top: 0.25rem;
-padding-bottom: 0.25rem;
-padding-left: 0.65rem;
-padding-right: 0.65rem;
-width: 0.5rem;
-border-radius: 100%;
-background-color: #4e69a2; 
+ height: 0.5rem;
+ padding-top: 0.25rem;
+ padding-bottom: 0.25rem;
+ padding-left: 0.65rem;
+ padding-right: 0.65rem;
+ width: 0.5rem;
+ border-radius: 100%;
+ background-color: #4e69a2; 
 }
 
 #mulheres-palestrantes .title {
