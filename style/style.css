@@ -76,7 +76,7 @@ header, article {
  padding-right: 0.65rem;
  width: 0.5rem;
  border-radius: 100%;
- background-color: #4e69a2; 
+ background-color: #4e69a2;
 }
 
 #mulheres-palestrantes .title {
@@ -122,6 +122,38 @@ header, article {
 
 #js4girls .description {
   background-color: #DF105B;
+}
+
+.down .icon {
+    position: absolute;
+    transform-style: preserve-3d;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    fill: #FFF;
+    animation: 1.3s ease 0s normal none infinite running pulse;
+}
+
+.down {
+    position: relative;
+    bottom: 50px;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+a, aside, .overlay, body {
+    transition: all 0.25s ease 0s;
+}
+
+a {
+    background: transparent none repeat scroll 0% 0%;
 }
 
 @media (min-width: 800px) {
