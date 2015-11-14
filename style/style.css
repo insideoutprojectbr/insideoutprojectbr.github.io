@@ -131,6 +131,15 @@ header, article {
   background-color: #DF105B;
 }
 
+#django-girls-sjc .title {
+  background-image: url('../images/projects/django-girls-sjc.jpg');
+  color: #2E9E9E;
+}
+
+#django-girls-sjc .description {
+  background-color: #2E9E9E;
+}
+
 .down .icon {
     position: absolute;
     transform-style: preserve-3d;
@@ -226,5 +235,11 @@ a {
 @media (min-width: 800px) {
   .title {
     font-size: 3rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .team-member {
+    display: block;
   }
 }
