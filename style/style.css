@@ -140,6 +140,15 @@ header, article {
   background-color: #2E9E9E;
 }
 
+#rails-girls-2015 .title {
+  background-image: url('../images/projects/rails-girls-2015.jpg');
+  color: #D3360B;
+}
+
+#rails-girls-2015 .description {
+  background-color: #D3360B;
+}
+
 .down .icon {
     position: absolute;
     transform-style: preserve-3d;
