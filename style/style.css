@@ -251,4 +251,8 @@ a {
   .team-member {
     display: block;
   }
+
+  .logo {
+    width: 100%;
+  }
 }
