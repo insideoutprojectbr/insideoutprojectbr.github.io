@@ -247,12 +247,14 @@ a {
   }
 }
 
+@media (max-width: 480px) {
+  .logo {
+    width: 100%;
+  }
+}
+
 @media (max-width: 320px) {
   .team-member {
     display: block;
-  }
-
-  .logo {
-    width: 100%;
   }
 }
