@@ -1,154 +1,164 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
-
 body {
-  background-color: #2B2E33;
-  color: #fff;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 1.2rem;
+    background-color: #2B2E33;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2rem;
 }
-
 p {
-  margin: 3vh 0;
+    margin: 3vh 0;
 }
-
 a {
-  text-decoration: none;
-  color: #000;
+    text-decoration: none;
+    color: #000;
 }
-
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
-
 a:visited {
-  color: #000;
+    color: #000;
 }
-
 header h1 {
-  font-size: 2.5rem;
-  padding: 2vw;
-  text-shadow: -0.1rem -0.1rem 0.1rem #D3360B;
+    font-size: 2.5rem;
+    padding: 2vw;
+    text-shadow: -0.1rem -0.1rem 0.1rem #D3360B;
 }
-
 header, article {
-  min-height: 100vh;
-  padding: 6vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
+    min-height: 100vh;
+    padding: 6vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
-
-#inside-out .description {
-  background-color: #663399;
+#inside-out {
+    background-image: url('../images/rails-girls-cover.png');
+    background-size: cover;
+    height: 84vh;
 }
-
+#inside-out p {
+    margin: 0px;
+    text-align: center;
+    padding: 15vh 30vh;
+}
+.logo {
+    height: 6vh;
+}
+nav {
+    border-bottom: 0.5px solid gray;
+    display: flex;
+    justify-content: space-between;
+}
+nav header, nav ul {
+    padding: 2vw;
+}
+nav header {
+    min-height: 100%;
+    display: inline-block;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline;
+    padding: 0 2vw;
+}
+nav ul li a, nav ul li a:visited, nav ul li a:active, nav ul li a:focus {
+    text-decoration: none;
+    color: #FFF;
+}
+nav ul li a:hover {
+    text-decoration: none;
+    color: #d3d3d3;
+}
 .team-member {
-  list-style: none;
-  display: inline-block;
-  padding: 2vw;
+    list-style: none;
+    display: inline-block;
+    padding: 2vw;
 }
-
 .member-photo {
-  max-width: 20vw;
-  border-radius: 100%;
+    max-width: 8vw;
+    border-radius: 100%;
 }
-
 .title {
-  font-size: 2rem;
-  text-shadow: 0.1rem 0.1rem #333;
+    font-size: 2rem;
+    text-shadow: 0.1rem 0.1rem #333;
 }
-
 .badge {
-  margin-right: 0.5rem;
+    margin-right: 0.5rem;
 }
-
 .fa.fa-github {
-  font-size: 2rem;
-  vertical-align: middle;
-  margin-bottom: 0.2rem;
+    font-size: 2rem;
+    vertical-align: middle;
+    margin-bottom: 0.2rem;
 }
-
 .fa-facebook {
-  height: 2rem;
-  width: 2rem;
-  padding-top: 0.45rem;
-  border-radius: 100%;
-  background-color: #4e69a2;
+    height: 2rem;
+    width: 2rem;
+    padding-top: 0.45rem;
+    border-radius: 100%;
+    background-color: #4e69a2;
 }
-
 #mulheres-palestrantes .title {
-  background-image: url('../images/projects/mulheres_palestrantes.jpg');
-  color: #CC0066;
+    background-image: url('../images/projects/mulheres_palestrantes.jpg');
+    color: #CC0066;
 }
-
 #mulheres-palestrantes .description {
-  background-color: #CC0066;
+    background-color: #CC0066;
 }
-
 #rails-girls .title {
-  background-image: url('../images/projects/rails-girls.jpg');
-  color: #D3360B;
+    background-image: url('../images/projects/rails-girls.jpg');
+    color: #D3360B;
 }
-
 #rails-girls .description {
-  background-color: #D3360B;
+    background-color: #D3360B;
 }
-
 #django-girls .title {
-  background-image: url('../images/projects/django-girls-niteroi.jpg');
-  color: #FF9400;
+    background-image: url('../images/projects/django-girls-niteroi.jpg');
+    color: #FF9400;
 }
-
 #django-girls .description {
-  background-color: #FF9400;
+    background-color: #FF9400;
 }
-
 #wtm .title {
-  background-image: url('../images/projects/wtm.jpg');
-  color: #3399FF;
+    background-image: url('../images/projects/wtm.jpg');
+    color: #3399FF;
 }
-
 #wtm .description {
-  background-color: #3399FF;
+    background-color: #3399FF;
 }
-
 #js4girls .title {
-  background-image: url('../images/projects/js4girls.jpg');
-  color: #DF105B;
+    background-image: url('../images/projects/js4girls.jpg');
+    color: #DF105B;
 }
-
 #js4girls .description {
-  background-color: #DF105B;
+    background-color: #DF105B;
 }
-
 #django-girls-sjc .title {
-  background-image: url('../images/projects/django-girls-sjc.jpg');
-  color: #2E9E9E;
+    background-image: url('../images/projects/django-girls-sjc.jpg');
+    color: #2E9E9E;
 }
-
 #django-girls-sjc .description {
-  background-color: #2E9E9E;
+    background-color: #2E9E9E;
 }
-
 #rails-girls-2015 .title {
-  background-image: url('../images/projects/rails-girls-2015.jpg');
-  color: #D3360B;
+    background-image: url('../images/projects/rails-girls-2015.jpg');
+    color: #D3360B;
 }
-
 #rails-girls-2015 .description {
-  background-color: #D3360B;
+    background-color: #D3360B;
 }
-
 .down .icon {
     position: absolute;
     transform-style: preserve-3d;
@@ -160,7 +170,6 @@ header, article {
     fill: #FFF;
     animation: 1.3s ease 0s normal none infinite running pulse;
 }
-
 .down {
     position: relative;
     bottom: 50px;
@@ -168,93 +177,86 @@ header, article {
     display: block;
     text-align: center;
 }
-
 svg:not(:root) {
     overflow: hidden;
 }
-
 a, aside, .overlay, body {
     transition: all 0.25s ease 0s;
 }
-
 a {
     background: transparent none repeat scroll 0% 0%;
 }
-
 @-webkit-keyframes pulse {
-	from {
-		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
-		filter:alpha(opacity=40);
-		opacity:.4;
-		top:0
-	}
-	50% {
-		-ms-filter:none;
-		-webkit-filter:none;
-		filter:none;
-		opacity:1;
-		top:-10px
-	}
-	to {
-		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
-		filter:alpha(opacity=40);
-		opacity:.4;
-		top:0
-	}
+    from {
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+        filter: alpha(opacity=40);
+        opacity: .4;
+        top: 0
+    }
+    50% {
+        -ms-filter: none;
+        -webkit-filter: none;
+        filter: none;
+        opacity: 1;
+        top: -10px
+    }
+    to {
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+        filter: alpha(opacity=40);
+        opacity: .4;
+        top: 0
+    }
 }
 @keyframes pulse {
-	from {
-		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
-		filter:alpha(opacity=40);
-		opacity:.4;
-		top:0
-	}
-	50% {
-		-ms-filter:none;
-		-webkit-filter:none;
-		filter:none;
-		opacity:1;
-		top:-10px
-	}
-	to {
-		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
-		filter:alpha(opacity=40);
-		opacity:.4;
-		top:0
-	}
+    from {
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+        filter: alpha(opacity=40);
+        opacity: .4;
+        top: 0
+    }
+    50% {
+        -ms-filter: none;
+        -webkit-filter: none;
+        filter: none;
+        opacity: 1;
+        top: -10px
+    }
+    to {
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+        filter: alpha(opacity=40);
+        opacity: .4;
+        top: 0
+    }
 }
 .icons-home {
-	text-align:center;
+    text-align: center;
 }
 .icons-home a {
-	display:inline-block;
-	padding:.9375rem;
-	margin:.125rem;
-	border-radius:50%;
-	border:.125rem solid #fff;
-	line-height:0;
-	transition:all .7s;
+    display: inline-block;
+    padding: .9375rem;
+    margin: .125rem;
+    border-radius: 50%;
+    border: .125rem solid #fff;
+    line-height: 0;
+    transition: all .7s;
 }
 .icons-home a .icon {
-	fill:#fff;
-	width:18px;
-	height:18px;
+    fill: #fff;
+    width: 18px;
+    height: 18px;
 }
-
 @media (min-width: 800px) {
-  .title {
-    font-size: 3rem;
-  }
+    .title {
+        font-size: 3rem;
+    }
 }
-
 @media (max-width: 480px) {
-  .logo {
-    width: 100%;
-  }
+    .logo {
+        width: 100%;
+    }
 }
-
 @media (max-width: 320px) {
-  .team-member {
-    display: block;
-  }
+    .team-member {
+        display: block;
+    }
 }
