@@ -30,8 +30,6 @@ header h1 {
     text-shadow: -0.1rem -0.1rem 0.1rem #D3360B;
 }
 header, article {
-    min-height: 100vh;
-    padding: 6vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,15 +40,18 @@ header, article {
     background-position: center;
     background-attachment: fixed;
 }
+.main-section {
+    height: 84vh;
+    padding: 6vh 0;
+}
 #inside-out {
     background-image: url('../images/rails-girls-cover.png');
     background-size: cover;
-    height: 84vh;
 }
 #inside-out p {
     margin: 0px;
     text-align: center;
-    padding: 15vh 30vh;
+    padding: 0 30vh;
 }
 .logo {
     height: 6vh;
@@ -158,6 +159,18 @@ nav ul li a:hover {
 }
 #rails-girls-2015 .description {
     background-color: #D3360B;
+}
+#events {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.event {
+    width: 50vh;
+    padding: 0px 2vw;
+}
+.event img {
+    width: 100%;
 }
 .down .icon {
     position: absolute;
