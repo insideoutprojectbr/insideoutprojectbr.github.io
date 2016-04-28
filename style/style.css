@@ -169,6 +169,17 @@ header, article {
     text-align: center;
 }
 
+.next-event a {
+    text-transform: uppercase;
+    color: #00cc66;
+    font-size: 1.3em;
+}
+
+.next-event a:hover {
+    color: green;
+    text-decoration: none;
+}
+
 svg:not(:root) {
     overflow: hidden;
 }
