@@ -27,9 +27,28 @@ h2 {
 header {
   background-color: #2B2E33;
   text-align: center;
-  padding: 2rem 0;
+  padding: 2rem;
 }
 
 li {
   margin-left: 4rem;
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
+
+  .insideout-logo {
+    width: 100%;
+  }
+
+  main {
+    margin: 2rem auto;
+  }
+
+  li {
+    margin-left: 2rem;
+  }
+
 }
