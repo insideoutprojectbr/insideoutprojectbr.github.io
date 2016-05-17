@@ -39,12 +39,20 @@ li {
     font-size: 12px;
   }
 
+  body {
+    font-size: 1.5rem;
+  }
+
   .insideout-logo {
     width: 100%;
   }
 
   main {
     margin: 2rem auto;
+  }
+
+  p {
+    line-height: 2rem;
   }
 
   li {
